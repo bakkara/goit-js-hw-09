@@ -37,10 +37,17 @@ img {
 .label {
   font-size: 36px;
 }
+
 .flatpickr-input {
   text-align: center;
   padding: 10px 100px;
   font-size: 30px;
+  border-radius: 20px;
+}
+form input {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 20px;
   border-radius: 20px;
 }
 button {
