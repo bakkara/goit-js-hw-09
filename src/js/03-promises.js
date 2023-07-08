@@ -30,7 +30,7 @@ function handleSubmit(evt) {
   const amount = Number(selectors.amount.value);
 
   for (let i = 0; i < amount; i += 1) {
-    const position = i;
+    const position = i + 1;
     const delay = firstDelay + i  * step;
     createPromise(position, delay)
       .then(({ position, delay }) => {
